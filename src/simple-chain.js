@@ -5,15 +5,31 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 const chainMaker = {
+  // var chainLength = ''
   getLength() {
+    // let length = 0
+    // for(let i = 0; i < chainLength.length - 1; i++){
+    //   if(chainLength[i] === '~'){
+    //     length += 1
+    //   }else{
+    //   i++
+    // }
+    // return length / 2;
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   },
-  addLink(/* value */) {
+  addLink(/*value*/) {
+    // if(chainLength === ''){
+    //   return `( ${value} )`
+    // }else{
+    //   return `~~( ${value} )`
+    // }
+
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   },
-  removeLink(/* position */) {
+  removeLink(/*position*/) {
+
     throw new NotImplementedError('Not implemented');
     // remove line with error and write your code here
   },
